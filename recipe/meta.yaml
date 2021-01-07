@@ -1,5 +1,5 @@
 {% set name = "testbook" %}
-{% set version = "0.2.4" %}
+{% set version = "0.2.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/nteract/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: b4d61c373bd55cfa3f2c4cbb0171bd88fb01365ab4af43bd1a8a568dab425def
+  sha256: 9d984b522e75b30eab2bef82d7d78482630cdf961bd312e4d4a92cb9fe29479b
 
 build:
   noarch: python
